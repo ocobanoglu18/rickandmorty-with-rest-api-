@@ -5,17 +5,31 @@
 //  Created by Adnan Cobanoglu on 28.12.2022.
 //
 
+import Combine
 import SwiftUI
+
+struct CustomColor {
+    static let cardColor = Color("cardColor")
+}
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView {
+            CharacterView()
+                .tabItem {
+                    Image(systemName: "house")
+                }
+         
+            EpisodeView()
+                .tabItem {
+                    Image(systemName: "list.triangle")
+                }
+            Locations()
+                .tabItem {
+                    Image(systemName: "map.circle")
+                }
+        
+        }.accentColor(Color.white)
     }
 }
 
