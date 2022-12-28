@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  R&MRest
+//  R&M
 //
-//  Created by Adnan Cobanoglu on 28.12.2022.
+//  Created by Adnan Cobanoglu on 2.11.2022.
 //
 
 import Combine
@@ -38,3 +38,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
