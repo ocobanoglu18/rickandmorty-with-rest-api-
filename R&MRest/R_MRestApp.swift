@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct R_MRestApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+        ContentView().preferredColorScheme(.dark)
         }
     }
 }

@@ -1,0 +1,30 @@
+/*
+  Localizable.strings
+  R&M
+
+  Created by Adnan Cobanoglu on 7.12.2022.
+  
+*/
+"Imagesfromepisodes"="Images from episodes";
+"Characters"="Characters";
+"Main"="Main";
+"Dead"="Dead";
+"Unknown"="UnKnown";
+"Rick&MortyApp!"="Rick&Morty App!";
+"CharacterName"="Character Name";
+"CharacterGender"="Character Gender";
+"CharacterType"="Character Type";
+"CharacterCreated Date"="Character Created Date";
+"CharacterSpecies"="Character Species";
+"CharacterStatus"="Character Status";
+"DetailView"="Detail View";
+"Episodes"="Episodes";
+"Removefromfavorites"="Remove from favorites";
+"AddtoFavorites"="Add to Favorites";
+"CharactersinThisEpisode"="Characters in This Episode";
+"ResidentinThisLocations"="Resident in This Locations";
+"Dimesion"="Dimension";
+
+
+
+
